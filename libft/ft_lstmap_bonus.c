@@ -6,11 +6,11 @@
 /*   By: abenajib <abenajib@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 20:39:31 by abenajib          #+#    #+#             */
-/*   Updated: 2024/12/21 11:15:15 by abenajib         ###   ########.fr       */
+/*   Updated: 2025/04/05 12:37:28 by abenajib         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "libft.h"
 #include <stdio.h>
 
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
@@ -37,7 +37,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (new_list);
 }
-// #include "push_swap.h"
+// #include "libft.h"
 // #include <stdio.h>
 // #include <stdlib.h>
 
